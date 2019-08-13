@@ -1,0 +1,60 @@
+.home {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20vh;
+    background-image: url(/images/home/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+    h1{
+        font-size: 4.5em;
+        font-family: 'DM Serif Display', serif;
+    }
+
+    .line{
+        width: 20%;
+        margin: auto;
+        background-color: #fff;
+        height: 2px;
+    }
+
+    .pulse{
+        position: absolute;
+        bottom: 70px;
+        width: 20%;
+        left: 40%;
+
+        a{
+            display: block;
+            :hover{
+                color: #178578;
+                box-shadow: 0 7px 10px 0 rgba(38, 166, 154, 0.7);
+            }
+        }
+
+        &--icon{
+            color: #DBF5F8;
+            font-size: 5em!important;
+            width: 80px;
+            border: none;
+            box-shadow: 0 7px 10px 0 rgba(219, 245, 248, 0.7);
+            border-radius: 50%;
+            cursor: pointer;
+            -webkit-animation: pulse 1s infinite cubic-bezier(0.66, 0, 0, 1);
+            -moz-animation: pulse 1s infinite cubic-bezier(0.66, 0, 0, 1);
+            -ms-animation: pulse 1s infinite cubic-bezier(0.66, 0, 0, 1);
+            animation: pulse 1s infinite cubic-bezier(0.66, 0, 0, 1);
+
+            &:hover{
+                animation: pulse .5s infinite cubic-bezier(0.66, 0, 0, 1);
+            }
+        }
+        
+        @-webkit-keyframes pulse {to {box-shadow: 0 20px 30px 20px rgba(219, 245, 248, 0);}}
+        @-moz-keyframes pulse {to {box-shadow: 0 20px 30px 20px rgba(219, 245, 248, 0);}}
+        @-ms-keyframes pulse {to {box-shadow: 0 20px 30px 20px rgba(219, 245, 248, 0);}}
+        @keyframes pulse {to {box-shadow: 0 20px 30px 20px rgba(219, 245, 248, 0);}}
+    }
+}

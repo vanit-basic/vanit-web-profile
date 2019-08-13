@@ -1,0 +1,78 @@
+.services{
+    background-color: #E7F2F1;
+    opacity: 0.9;
+    padding-bottom: 50px;
+
+    &--container{
+        width: 90%!important;
+        margin: 0 auto;
+        margin-top: 30px;
+    
+        &:hover{
+            .MuiGrid-root{
+                opacity: .4;
+            }
+        }
+    }
+
+    .MuiGrid-root{
+        &:hover{
+            opacity: 1!important;
+            cursor: pointer;
+        }
+    }
+    
+    &--content{
+        display: inline-flex;
+        padding: 30px;
+        width: 100%;
+    }
+
+    &--logo{
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    &--category{
+        text-align: center;
+        color: rgb(71, 101, 105);
+        width: 100%;
+        padding-left: 20px;
+
+        h3{
+            font-size: 1.7em;
+            margin-top: 0;
+            font-family: 'Indie Flower', cursive;
+        }
+
+        p{
+            font-size: 1.5em;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .services--logo {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .services--category {
+        
+        h3 {
+            font-size: 1em;
+        }
+    }
+
+    .services--container {
+        &:hover {
+            .MuiGrid-root{
+                opacity: 1;
+            }
+        }
+    }
+}

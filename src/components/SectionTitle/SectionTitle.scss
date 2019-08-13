@@ -1,0 +1,30 @@
+.sectionTitle {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 80px 0 40px 0;
+
+    h1{
+        font-size: 3.5em;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    div {
+        height: 2px;
+        width: 50%;
+        background-color: #80CBC4;
+        margin: 0 auto;
+    }    
+
+    p{
+        font-size: 1.5em;
+        line-height: 30px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+@media screen and (max-width: 676px) {
+    .sectionTitle {
+        width: 90%;
+    }
+}
