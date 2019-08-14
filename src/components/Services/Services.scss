@@ -9,7 +9,7 @@
         margin-top: 30px;
     }
     
-    &--content{
+    &--content {
         cursor: pointer;
         display: inline-flex;
         padding: 30px;
@@ -23,11 +23,12 @@
         }
     }
 
-    &--category{
-        text-align: center;
+    &--category {
         color: rgb(71, 101, 105);
         width: 100%;
         padding-left: 20px;
+        height: 50px;
+        padding-top: calc((50px - 1.7em)/2);
 
         h3{
             font-size: 1.7em;

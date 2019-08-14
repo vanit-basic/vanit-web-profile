@@ -33,7 +33,6 @@ class Portfolio extends Component {
 
     updatePageItems = () => {
         this.setState({
-            offset: 0,
             pageItems: window.innerWidth > 1279 ? 6 : 4
         });
     };
