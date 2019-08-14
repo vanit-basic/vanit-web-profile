@@ -90,13 +90,13 @@ export default function PrimarySearchAppBar () {
         <div className={`navigation ${classes.grow}`}>
             <AppBar position="static" className = {`navigation--${scrollClass ? 'scroll' : 'top'} ${scrollDawn ? 'hideHerder' : ''}`}>
                 <Toolbar>
-                    <a href="#home" className='navigation--logo'>
+                    <a href="#home" className='navigation--logo' tabindex = {1}>
                         <span className = 'logo'><span >V</span>anIT</span>
                     </a>
                     <div className={classes.grow} />
                     <div className={classes.sectionDesktop}>
                         {data.map(item => {
-                            return <a href = {`#${item.id}`} key = {item.id}>{item.title}</a>;
+                            return <a href = {`#${item.id}`} tabindex = {1} key = {item.id}>{item.title}</a>;
                         })}
                     </div>
                     <div className={classes.sectionMobile}>
