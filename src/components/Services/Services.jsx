@@ -14,7 +14,7 @@ class Services extends Component {
             <div className='services' id = 'services'>
                 <SectionTitle 
                     title = "Services"
-                    text = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem vero quae at consequatur labore ullam minus magni omnis dolorem ut sed corrupti doloribus dolorum et quidem repudiandae soluta, deserunt facilis.'
+                    text = 'VanIt offers a wide set of Web development services from creating simple company sites to corporate business process automation solutions with interactive UI and complex backend. As well as we have a reliable team with deep expertise in Android and iOS development. We will help you invent the future.'
                     color = '#476569'
                 />
                 <Grid container className = 'services--container'>

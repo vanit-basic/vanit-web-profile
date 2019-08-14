@@ -9,7 +9,7 @@ class PortfolioItem extends Component {
     render () {
         const { imgSrc, imgAlt, link } = this.props;
         return (
-            <Grid item xl={4} lg={4} md={6} sm={6} xs={12} className = 'portfolio--images--item'>
+            <Grid item xl={4} lg={4} md={6} sm={6} xs={12} className = 'portfolio--images--item' >
                 <img src = {imgSrc} alt = {imgAlt} style = {{ height: '100%', width: '100%' }}/>
                 <div className = 'portfolio--images--item--option'>
                     <Modal 
@@ -18,7 +18,7 @@ class PortfolioItem extends Component {
                     />
                     <a href={link} target='blank'><i className="material-icons">link</i></a>
                 </div>
-            </Grid>      
+            </Grid>
         );
     }
 }
