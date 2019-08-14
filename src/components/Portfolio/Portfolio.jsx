@@ -47,7 +47,7 @@ class Portfolio extends Component {
             <div className='portfolio' id = 'portfolio'>
                 <SectionTitle 
                     title = "Portfolio"
-                    text = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem vero quae at consequatur labore ullam minus magni omnis dolorem ut sed corrupti doloribus dolorum et quidem repudiandae soluta, deserunt facilis.'
+                    text = 'We create solutions that  follow the latest digital trends. Here are some projects completed by our team.'
                     color = '#476569'
                 />
                 <Grid container className = 'portfolio--images'>
