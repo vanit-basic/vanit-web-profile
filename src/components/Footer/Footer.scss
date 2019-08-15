@@ -45,8 +45,8 @@
         ul li {
             list-style: none;
             padding: 5px 0 0;
-            font-family: 'Dancing Script', cursive;
-            font-size: 1.2em;
+            font-family: 'Playfair Display', serif;
+            font-size: 1em;
         }
     }
 
@@ -56,6 +56,7 @@
 
         p {
             text-align: center;
+            font-family: 'Playfair Display', serif;
         }
 
         &--line {
@@ -66,7 +67,7 @@
     }
 }
 
-@media screen and (max-width : 576px){
+@media screen and (max-width : 600px){
     .footer--contacts ul {
         text-align: center;
     }

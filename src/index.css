@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Dancing+Script|Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Dancing+Script|Indie+Flower&display=swap');
 
 body {
   margin: 0;
-  /* font-family: 'Indie Flower', cursive; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;

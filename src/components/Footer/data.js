@@ -5,7 +5,7 @@ const data = {
     facebook: 'https://www.facebook.com/',
     twitter: 'https://twitter.com/',
     github: 'https://github.com/',
-    copyright: 'VanIT Inc. All rights reserved.'
+    copyright: 'VanIT LLC.  ©  '
 };
 
 export default data;

@@ -55,7 +55,6 @@ class Portfolio extends Component {
                             key = {item.src} 
                             imgSrc = {item.src} 
                             imgAlt = {item.alt}
-                            link = {item.link}
                         />;
                     })}
                 </Grid>

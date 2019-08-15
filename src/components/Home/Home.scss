@@ -7,20 +7,26 @@
 
     h1{
         font-size: 4.5em;
-        font-family: 'DM Serif Display', serif;
+        font-family: 'Dancing Script', cursive;
+        margin-bottom: .5em;
+    }
+
+    .sectionTitle{
+        padding: 7em 0 2em;
     }
 
     &--button {
-        font-family: 'DM Serif Display', serif;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 900;
         text-decoration: none;
-        width: 12.5em;
+        width: 200px;
         margin: 0 auto;
         display: block;
-        font-size: 1.5em;
-        padding: .5em 2em;
-        color: black;
+        font-size: 2em;
+        padding: 0 25px;
+        color: #476569;
         border: 2px solid #DBF5F8;
-        border-radius: 30px;
+        border-radius: 999px;
         background: #DBF5F8;
 
         &:hover {
