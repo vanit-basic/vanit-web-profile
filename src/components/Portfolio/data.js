@@ -16,14 +16,6 @@ const images = [
         alt: 'burrito-web-1',
     },
     {
-        src: '/images/portfolio/mobile/botsmart-landing.png',
-        alt: 'botsmart-landing',
-    },
-    {
-        src: '/images/portfolio/mobile/botsmart-mobile.png',
-        alt: 'botsmart-mobile',
-    },
-    {
         src: '/images/portfolio/mobile/hotel-bot-mobile.png',
         alt: 'hotel-bot-mobile',
     },
